@@ -1,0 +1,1 @@
+V1-V28 are PCA-anonymized. SHAP identifies which features drive predictions but cannot provide business-level explanation. Amount and log1p_amount are the only human-interpretable features.

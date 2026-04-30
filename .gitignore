@@ -1,0 +1,38 @@
+# Large data files
+*.csv
+!FraudShield/reports/*.csv
+
+# Models
+*.pkl
+*.joblib
+FraudShield/models/*.json
+!FraudShield/models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*_executed.ipynb
+
+# Pytest
+.pytest_cache/

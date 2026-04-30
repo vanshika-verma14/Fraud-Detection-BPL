@@ -1,0 +1,34 @@
+date,model,hyperparams,train_f1,val_f1,val_auc_pr,val_recall,val_precision,val_mcc,val_roc_auc,val_accuracy,fp_count,fn_count,threshold,notes
+Week1,none,none,-,-,-,-,-,-,-,-,-,-,-,experiment log initialized
+2026-04-12,LogisticRegression,"C=1.0,max_iter=1000,solver=lbfgs",0.9646,0.9646,0.9946,0.9520,0.9777,0.9305,0.9938,0.9651,928,2048,0.5,baseline LR
+2026-04-12,RandomForest,"n_est=100,max_depth=10",0.9858,0.9858,0.9995,0.9732,0.9987,0.9722,0.9995,0.9860,56,1141,0.5,baseline RF
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9996,0.9996,1.0,1.0,0.9992,0.9992,1.0,0.9996,36,0,0.5,XGBoost base run (default threshold)
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9998,0.9998,1.0,1.0,0.9995,0.9995,1.0,0.9998,21,0,0.65,XGBoost at optimal_f1_threshold=0.65
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9975,0.9975,1.0,1.0,0.995,0.9949,1.0,0.9975,216,0,0.1,XGBoost at max_recall_threshold=0.1
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9996,0.9996,1.0,1.0,0.9992,0.9992,1.0,0.9996,36,0,0.5,XGBoost base run (default threshold)
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9998,0.9998,1.0,1.0,0.9995,0.9995,1.0,0.9998,21,0,0.65,XGBoost at optimal_f1_threshold=0.65
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9975,0.9975,1.0,1.0,0.995,0.9949,1.0,0.9975,216,0,0.1,XGBoost at max_recall_threshold=0.1
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9996,0.9996,1.0,1.0,0.9992,0.9992,1.0,0.9996,36,0,0.5,XGBoost base run (default threshold)
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9998,0.9998,1.0,1.0,0.9995,0.9995,1.0,0.9998,21,0,0.65,XGBoost at optimal_f1_threshold=0.65
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9975,0.9975,1.0,1.0,0.995,0.9949,1.0,0.9975,216,0,0.1,XGBoost at max_recall_threshold=0.1
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9996,0.9996,1.0,1.0,0.9992,0.9992,1.0,0.9996,36,0,0.5,XGBoost base run (default threshold)
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9998,0.9998,1.0,1.0,0.9995,0.9995,1.0,0.9998,21,0,0.65,XGBoost at optimal_f1_threshold=0.65
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9975,0.9975,1.0,1.0,0.995,0.9949,1.0,0.9975,216,0,0.1,XGBoost at max_recall_threshold=0.1
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9996,0.9996,1.0,1.0,0.9992,0.9992,1.0,0.9996,36,0,0.5,XGBoost base run (default threshold)
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9998,0.9998,1.0,1.0,0.9995,0.9995,1.0,0.9998,21,0,0.65,XGBoost at optimal_f1_threshold=0.65
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9975,0.9975,1.0,1.0,0.995,0.9949,1.0,0.9975,216,0,0.1,XGBoost at max_recall_threshold=0.1
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9996,0.9996,1.0,1.0,0.9992,0.9992,1.0,0.9996,36,0,0.5,XGBoost base run (default threshold)
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9998,0.9998,1.0,1.0,0.9995,0.9995,1.0,0.9998,21,0,0.65,XGBoost at optimal_f1_threshold=0.65
+2026-04-13,XGBoost,"n_est=200,lr=0.1,md=6,ss=0.8,csbt=0.8,es=20",0.9975,0.9975,1.0,1.0,0.995,0.9949,1.0,0.9975,216,0,0.1,XGBoost at max_recall_threshold=0.1
+2026-04-25,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: balanced test set evaluation
+2026-04-25,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: 95:5 imbalanced test set
+2026-04-25,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,"robustness: class-weight adjusted, imbalanced test set"
+2026-04-25,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: balanced test set evaluation
+2026-04-25,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: 95:5 imbalanced test set
+2026-04-25,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,"robustness: class-weight adjusted, imbalanced test set"
+2026-04-28,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: balanced test set evaluation
+2026-04-28,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: 95:5 imbalanced test set
+2026-04-28,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,"robustness: class-weight adjusted, imbalanced test set"
+2026-04-28,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: balanced test set evaluation
+2026-04-28,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,robustness: 95:5 imbalanced test set
+2026-04-28,LightGBM,,,0.9991,1.0,1.0,0.9982,0.9982,1.0,0.9991,75,0,0.5,"robustness: class-weight adjusted, imbalanced test set"
